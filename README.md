@@ -14,7 +14,7 @@ Dibuat dengan tutorial dari : https://www.youtube.com/watch?v=1NrHkjlWVhM&t=514s
 1. Clone ke repo lokal
 2. Kerjakan per bagian menitnya dari tutorial youtube
 3. Minta akses untuk push menggunakan akun github masing-masing
-4. Setelah diapproved, push perubahan yang telah ditambahkan ke branch baru (1 per orang)
+4. Setelah diapproved, push perubahan yang telah ditambahkan ke branch develop
 5. Setelah oke nantinya baru di push ke branch master
 
 よろしくお願いします 皆!

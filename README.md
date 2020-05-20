@@ -8,7 +8,6 @@ Simple CRUD Blog Website with NodeJs and Mongodb
 3. Jeremia Joseph P
 4. Fajrul Falah
 
-Dibuat dengan tutorial dari : https://www.youtube.com/watch?v=1NrHkjlWVhM&t=514s
 
 # Cara Kerja Remote
 1. Clone ke repo lokal

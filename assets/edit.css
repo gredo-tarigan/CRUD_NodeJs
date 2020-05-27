@@ -1,0 +1,11 @@
+body{ background-image: url('https://wallpaperplay.com/walls/full/b/3/7/329976.jpg');
+    font-family: sans-serif;
+}
+h1.mb-4{font-style: italic;
+    font-variant: small-caps;
+}
+form{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: 20px;
+}

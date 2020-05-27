@@ -1,0 +1,9 @@
+.form-group input{
+ border-radius: 20px;
+}
+.form-group textarea{
+    border-radius: 20px;
+   }
+#markdown{
+    height: 300px;
+}

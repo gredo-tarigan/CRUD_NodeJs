@@ -4,18 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="/assets/style.css" rel="stylesheet" type="text/css">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Blog</title>
 </head>
 <body>
-  <div class="container">
-    <h1 class="mb-4">Blog Articles</h1>
+  <header>
+  <div class="header">
+      <ul>
+        <li><a href="/articles/index">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li> 
+      </ul>
+    </div>
+  </header>
+  <div class="test">
     <a href="/articles/new" class="btn btn-success">New Article</a>
+  </div>
+  <div class="container">
+    <h1 class="mb-4" style="font-weight: bold;">Blog Articles</h1>
+    <p>"When you have a dream, you've got to grab it and never let go."</p>
 
     <% articles.forEach(article => { %>
       <div class="card mt-4">
+        <div class="header-post">
+          <img src="https://images.unsplash.com/photo-1530916123588-1e1f619bb71e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80">
+        </div>
         <div class="card-body">
-          <h4 class="card-title"><%= article.title %></h4>
+          <h4 class="card-title" style="font-weight: bold;"><%= article.title %></h4>
           <div class="card-subtitle text-muted mb-2">
             <%= article.createdAt.toLocaleDateString() %>
           </div>

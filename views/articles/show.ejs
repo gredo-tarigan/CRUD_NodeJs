@@ -4,10 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="/assets/show.css" rel="stylesheet" type="text/css">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Blog</title>
 </head>
 <body>
+  <header>
+    <div class="header">
+        <ul>
+          <li><a href="/articles/index">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li> 
+        </ul>
+      </div>
+    </header>
   <div class="container">
     <h1 class="mb-1"><%= article.title %></h1>
     <div class="text-muted mb-2">
@@ -16,7 +26,7 @@
     <a href="/" class="btn btn-secondary">All Articles</a>
     <a href="/articles/edit/<%= article.id %>" class="btn btn-info">Edit</a>
 
-    <div>
+    <div class="content">
       <%- article.sanitizedHtml %>
     </div>
   </div>

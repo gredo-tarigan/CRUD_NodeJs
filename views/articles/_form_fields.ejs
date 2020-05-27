@@ -1,13 +1,15 @@
+<link href="/assets/form.css" rel="stylesheet" type="text/css">
 <div class="form-group">
-  <label for="title">Title</label>
+  <label for="title" style="font-weight: bold;">Title</label>
   <input required value="<%= article.title %>" type="text" name="title" id="title" class="form-control">
+  <div class="bar"></div>
 </div>
 <div class="form-group">
-  <label for="description">Description</label>
+  <label for="description" style="font-weight: bold;">Description</label>
   <textarea name="description" id="description" class="form-control"><%= article.description %></textarea>
 </div>
 <div class="form-group">
-  <label for="markdown">Markdown</label>
+  <label for="markdown" style="font-weight: bold;">Markdown</label>
   <textarea required name="markdown" id="markdown" class="form-control"><%= article.markdown %></textarea>
 </div>
 

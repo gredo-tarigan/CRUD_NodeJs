@@ -4,16 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="/assets/new.css" rel="stylesheet" type="text/css">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Blog</title>
 </head>
 <body>
+  <div class="header">
+    <ul>
+      <li><a href="/articles/index">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li> 
+    </ul>
+  </div>
   <div class="container">
-    <h1 class="mb-4">New Article</h1>
+    <h1 class="mb-4" style="font-weight: bold;">New Article</h1>
+    <div class="form">
 
     <form action="/articles" method="POST">
       <%- include('_form_fields') %>
     </form>
+  </div>
   </div>
 </body>
 </html>

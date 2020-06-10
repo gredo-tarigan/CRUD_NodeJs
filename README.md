@@ -10,7 +10,7 @@ Simple CRUD Blog Website with NodeJs and Mongodb
 
 Dibuat dengan tutorial dari : https://www.youtube.com/watch?v=1NrHkjlWVhM&t=514s
 
-# Cara Kerja Remote
+# Cara Kerja Remote (Done)
 1. Clone ke repo lokal
 2. Kerjakan per bagian menitnya dari tutorial youtube
 3. Minta akses untuk push menggunakan akun github masing-masing
@@ -18,3 +18,5 @@ Dibuat dengan tutorial dari : https://www.youtube.com/watch?v=1NrHkjlWVhM&t=514s
 5. Setelah oke nantinya baru di push ke branch master
 
 よろしくお願いします 皆!
+
+# Project Screenshot :
